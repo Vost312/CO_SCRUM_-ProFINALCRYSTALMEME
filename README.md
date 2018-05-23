@@ -3,7 +3,7 @@ Proyecto final IngSoft ICO FES ARAGON
 
 Equipo CRYSTALMEME
 
-Rol. 	Nombre.   
-PO 		Savinon Tovar Victor Oscar
+Rol. 	Nombre.							Correo.
+PO 		Savinon Tovar Victor Oscar 		victoroscarsato@hotmail.com
 SM
 ST
