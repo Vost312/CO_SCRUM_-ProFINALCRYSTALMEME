@@ -11,6 +11,6 @@ S.M
 
 S.T		Robles Hernández David Alejandro	alejandro.zip@hotmail.com
 
-S.T
+S.T		Cerón Rodríguez Lezly Dialid		dialid.ceron@gmail.com
 
 S.T		
