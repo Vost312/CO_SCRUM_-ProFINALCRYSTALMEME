@@ -7,7 +7,7 @@ Rol. 			Nombre.				Correo.
 
 P.O 		Savinon Tovar Victor Oscar 		victoroscarsato@hotmail.com
 
-S.M
+S.M		Sierra Zambrano Miguel Angel		miguelsz9711@gmail.com
 
 S.T		Robles Hernández David Alejandro	alejandro.zip@hotmail.com
 
