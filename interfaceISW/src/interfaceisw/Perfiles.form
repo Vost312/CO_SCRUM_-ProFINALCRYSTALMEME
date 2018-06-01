@@ -82,8 +82,8 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jButton2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-              <Component id="dorado3" min="-2" pref="70" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="dorado3" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jScrollPane1" pref="120" max="32767" attributes="0"/>
                   <Component id="img1" max="32767" attributes="0"/>
@@ -174,7 +174,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="putos"/>
+            <Property name="text" type="java.lang.String" value="ah&#xed;"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -182,13 +182,13 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="99" red="99" type="rgb"/>
+          <Color blue="f" green="9f" red="d5" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Sans" size="18" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="0" red="0" type="rgb"/>
+          <Color blue="79" green="3d" red="0" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Botoncin"/>
       </Properties>
@@ -207,7 +207,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="todos"/>
+            <Property name="text" type="java.lang.String" value="est&#xe1;"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -226,7 +226,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="apoko"/>
+            <Property name="text" type="java.lang.String" value="puto"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -245,7 +245,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="no"/>
+            <Property name="text" type="java.lang.String" value="buenas"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -264,7 +264,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="krnal?"/>
+            <Property name="text" type="java.lang.String" value="noches"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -274,7 +274,7 @@
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
-              <Color PropertyName="color" blue="ff" green="99" red="33" type="rgb"/>
+              <Color PropertyName="color" blue="79" green="3d" red="0" type="rgb"/>
             </LineBorder>
           </Border>
         </Property>

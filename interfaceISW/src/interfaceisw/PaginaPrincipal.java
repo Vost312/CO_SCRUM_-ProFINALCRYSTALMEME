@@ -17,7 +17,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         initComponents();
         
     
-    getContentPane().setBackground(new Color (51,153,255));
+    getContentPane().setBackground(new Color (0,61,121));
         ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/paginaP-head.png"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(dorado.getWidth(), dorado.getHeight(), Image.SCALE_DEFAULT));
         dorado.setIcon(fondo1);
@@ -43,24 +43,23 @@ public class PaginaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Pagina Principal");
-        setBackground(new java.awt.Color(102, 102, 0));
+        setBackground(new java.awt.Color(213, 159, 15));
         setForeground(new java.awt.Color(240, 240, 240));
         setName("frame-paginaP"); // NOI18N
 
-        jButton4.setBackground(new java.awt.Color(153, 153, 0));
+        jButton4.setBackground(new java.awt.Color(213, 159, 15));
         jButton4.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 204));
+        jButton4.setForeground(new java.awt.Color(0, 61, 121));
         jButton4.setText("Boton 1");
-        jButton4.setActionCommand("Boton 1");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(153, 153, 0));
+        jButton1.setBackground(new java.awt.Color(213, 159, 15));
         jButton1.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 204));
+        jButton1.setForeground(new java.awt.Color(0, 61, 121));
         jButton1.setText("Boton 2");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,9 +67,9 @@ public class PaginaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(153, 153, 0));
+        jButton2.setBackground(new java.awt.Color(213, 159, 15));
         jButton2.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 204));
+        jButton2.setForeground(new java.awt.Color(0, 61, 121));
         jButton2.setText("Boton 3");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,10 +81,10 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         dorado.setFont(new java.awt.Font("Rockwell Condensed", 0, 36)); // NOI18N
         dorado.setForeground(new java.awt.Color(255, 255, 255));
         dorado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dorado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 255)));
+        dorado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 61, 121)));
 
         jTextArea1.setEditable(false);
-        jTextArea1.setBackground(new java.awt.Color(153, 153, 0));
+        jTextArea1.setBackground(new java.awt.Color(213, 159, 15));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
@@ -118,9 +117,9 @@ public class PaginaPrincipal extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(dorado, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(dorado, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(55, Short.MAX_VALUE))
         );
 

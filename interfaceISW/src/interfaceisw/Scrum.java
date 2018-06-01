@@ -21,7 +21,7 @@ public class Scrum extends javax.swing.JFrame {
      */
     public Scrum() {
         initComponents();
-         getContentPane().setBackground(new Color (51,153,255));
+         getContentPane().setBackground(new Color (0,61,121));
         ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/scrum-head.png"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(dorado2.getWidth(), dorado2.getHeight(), Image.SCALE_DEFAULT));
         dorado2.setIcon(fondo1);
@@ -46,18 +46,18 @@ public class Scrum extends javax.swing.JFrame {
         setTitle("SCRUM");
         setResizable(false);
 
-        jTextArea1.setBackground(new java.awt.Color(153, 153, 0));
+        jTextArea1.setBackground(new java.awt.Color(213, 159, 15));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("Yo ya estoy hasta la madre\nDe que me pongan sombrero\nEscucha entonces cuando digo\nNo me llames frijolero\nY aunque exista algún respeto\nY no metamos las narices\nNunca inflamos la moneda\nHaciendo guerra a otros países\nTe pagamos con petróleo\nE intereses nuestra deuda\nMientras tanto no sabemos\nQuien se queda con la feria\nAunque nos hagan la fama\nDe que somos vendedores\nDe la droga que sembramos\nUstedes son consumidores");
         jScrollPane1.setViewportView(jTextArea1);
 
-        dorado2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 153, 255)));
+        dorado2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 61, 121)));
 
-        jButton1.setBackground(new java.awt.Color(153, 153, 0));
+        jButton1.setBackground(new java.awt.Color(213, 159, 15));
         jButton1.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 204));
+        jButton1.setForeground(new java.awt.Color(0, 61, 121));
         jButton1.setText("Botin boton");
         jButton1.setMaximumSize(new java.awt.Dimension(135, 41));
         jButton1.setMinimumSize(new java.awt.Dimension(135, 31));
@@ -80,7 +80,7 @@ public class Scrum extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(dorado2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(dorado2, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

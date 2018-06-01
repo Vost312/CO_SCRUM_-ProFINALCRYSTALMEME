@@ -22,7 +22,7 @@ public class Perfiles extends javax.swing.JFrame {
      */
     public Perfiles() {
         initComponents();
-           getContentPane().setBackground(new Color (51,153,255));
+          getContentPane().setBackground(new Color (0,61,121));
        
            ImageIcon imagen0=new ImageIcon(getClass().getResource("/imagenes/team-head.png"));
         Icon fondo0=new ImageIcon(imagen0.getImage().getScaledInstance(dorado3.getWidth(), dorado3.getHeight(), Image.SCALE_DEFAULT));
@@ -109,39 +109,39 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("putos");
+        jTextArea1.setText("ahí");
         jScrollPane1.setViewportView(jTextArea1);
 
-        jButton2.setBackground(new java.awt.Color(153, 153, 0));
+        jButton2.setBackground(new java.awt.Color(213, 159, 15));
         jButton2.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 204));
+        jButton2.setForeground(new java.awt.Color(0, 61, 121));
         jButton2.setText("Botoncin");
 
         jTextArea5.setColumns(20);
         jTextArea5.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea5.setRows(5);
-        jTextArea5.setText("todos");
+        jTextArea5.setText("está");
         jScrollPane5.setViewportView(jTextArea5);
 
         jTextArea6.setColumns(20);
         jTextArea6.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea6.setRows(5);
-        jTextArea6.setText("apoko");
+        jTextArea6.setText("puto");
         jScrollPane6.setViewportView(jTextArea6);
 
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea2.setRows(5);
-        jTextArea2.setText("no");
+        jTextArea2.setText("buenas");
         jScrollPane2.setViewportView(jTextArea2);
 
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea3.setRows(5);
-        jTextArea3.setText("krnal?");
+        jTextArea3.setText("noches");
         jScrollPane3.setViewportView(jTextArea3);
 
-        dorado3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 153, 255)));
+        dorado3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 61, 121)));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -176,8 +176,8 @@ public class Perfiles extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
-                .addComponent(dorado3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(dorado3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
                     .addComponent(img1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

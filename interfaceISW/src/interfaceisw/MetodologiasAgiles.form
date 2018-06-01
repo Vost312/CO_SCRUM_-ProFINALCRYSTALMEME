@@ -49,7 +49,7 @@
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="dorado2" min="-2" pref="70" max="-2" attributes="0"/>
+              <Component id="dorado2" min="-2" pref="45" max="-2" attributes="0"/>
               <EmptySpace pref="18" max="32767" attributes="0"/>
               <Component id="jScrollPane1" min="-2" pref="265" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -79,7 +79,7 @@
         <Component class="javax.swing.JTextArea" name="jTextArea1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="99" red="99" type="rgb"/>
+              <Color blue="f" green="9f" red="d5" type="rgb"/>
             </Property>
             <Property name="columns" type="int" value="20"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -96,7 +96,7 @@
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
-              <Color PropertyName="color" blue="ff" green="99" red="33" type="rgb"/>
+              <Color PropertyName="color" blue="79" green="3d" red="0" type="rgb"/>
             </LineBorder>
           </Border>
         </Property>
@@ -105,13 +105,13 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="99" red="99" type="rgb"/>
+          <Color blue="f" green="9f" red="d5" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Sans" size="18" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="cc" green="0" red="0" type="rgb"/>
+          <Color blue="79" green="3d" red="0" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Boooooton"/>
       </Properties>
