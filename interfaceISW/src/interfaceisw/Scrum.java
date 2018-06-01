@@ -5,6 +5,7 @@
  */
 package interfaceisw;
 
+import java.awt.Color;
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -20,8 +21,8 @@ public class Scrum extends javax.swing.JFrame {
      */
     public Scrum() {
         initComponents();
-        
-        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+         getContentPane().setBackground(new Color (51,153,255));
+        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/scrum-head.png"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(dorado2.getWidth(), dorado2.getHeight(), Image.SCALE_DEFAULT));
         dorado2.setIcon(fondo1);
         this.repaint();
@@ -42,41 +43,47 @@ public class Scrum extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("SCRUM");
         setResizable(false);
 
+        jTextArea1.setBackground(new java.awt.Color(153, 153, 0));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("ldoewfwefwefwgwegwe\ngwegwgwgwegwgwgwgw\ngw\ngw\ng\nwg\nw\ngw\ng\nweg\nwegw\nge\nwg\nw");
+        jTextArea1.setText("Yo ya estoy hasta la madre\nDe que me pongan sombrero\nEscucha entonces cuando digo\nNo me llames frijolero\nY aunque exista algún respeto\nY no metamos las narices\nNunca inflamos la moneda\nHaciendo guerra a otros países\nTe pagamos con petróleo\nE intereses nuestra deuda\nMientras tanto no sabemos\nQuien se queda con la feria\nAunque nos hagan la fama\nDe que somos vendedores\nDe la droga que sembramos\nUstedes son consumidores");
         jScrollPane1.setViewportView(jTextArea1);
 
-        dorado2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        dorado2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 153, 255)));
 
-        jButton1.setText("jButton1");
+        jButton1.setBackground(new java.awt.Color(153, 153, 0));
+        jButton1.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 204));
+        jButton1.setText("Botin boton");
+        jButton1.setMaximumSize(new java.awt.Dimension(135, 41));
+        jButton1.setMinimumSize(new java.awt.Dimension(135, 31));
+        jButton1.setPreferredSize(new java.awt.Dimension(135, 31));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(28, 28, 28)
+                .addGap(23, 23, 23)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 491, Short.MAX_VALUE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
                     .addComponent(dorado2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(31, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(8, 8, 8)
-                .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(dorado2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(dorado2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

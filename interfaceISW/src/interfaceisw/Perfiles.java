@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package interfaceisw;
-
+import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.JFrame;
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -20,11 +22,39 @@ public class Perfiles extends javax.swing.JFrame {
      */
     public Perfiles() {
         initComponents();
-        
+           getContentPane().setBackground(new Color (51,153,255));
+       
+           ImageIcon imagen0=new ImageIcon(getClass().getResource("/imagenes/team-head.png"));
+        Icon fondo0=new ImageIcon(imagen0.getImage().getScaledInstance(dorado3.getWidth(), dorado3.getHeight(), Image.SCALE_DEFAULT));
+        dorado3.setIcon(fondo0);
+        this.repaint();
+    
         ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img1.setIcon(fondo1);
         this.repaint();
+        
+        ImageIcon imagen2=new ImageIcon(getClass().getResource("/imagenes/hydra.jpg"));
+        Icon fondo2=new ImageIcon(imagen2.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
+        img2.setIcon(fondo2);
+        this.repaint();
+        
+        ImageIcon imagen3=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+        Icon fondo3=new ImageIcon(imagen3.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
+        img3.setIcon(fondo3);
+        this.repaint();
+        
+        ImageIcon imagen4=new ImageIcon(getClass().getResource("/imagenes/hydra.jpg"));
+        Icon fondo4=new ImageIcon(imagen4.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
+        img4.setIcon(fondo4);
+        this.repaint();
+        
+        ImageIcon imagen5=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+        Icon fondo5=new ImageIcon(imagen5.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
+        img5.setIcon(fondo5);
+        this.repaint();
+        
+        
     }
 
     /**
@@ -53,13 +83,17 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea2 = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
+        dorado3 = new javax.swing.JLabel();
 
         jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Development Team");
+        setBackground(new java.awt.Color(0, 0, 0));
+        setMaximizedBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setMaximumSize(new java.awt.Dimension(300, 500));
         setMinimumSize(new java.awt.Dimension(300, 500));
-        setResizable(false);
+        setSize(new java.awt.Dimension(0, 0));
 
         img1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -73,35 +107,51 @@ public class Perfiles extends javax.swing.JFrame {
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
+        jTextArea1.setText("putos");
         jScrollPane1.setViewportView(jTextArea1);
 
-        jButton2.setText("jButton2");
+        jButton2.setBackground(new java.awt.Color(153, 153, 0));
+        jButton2.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 204));
+        jButton2.setText("Botoncin");
 
         jTextArea5.setColumns(20);
+        jTextArea5.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea5.setRows(5);
+        jTextArea5.setText("todos");
         jScrollPane5.setViewportView(jTextArea5);
 
         jTextArea6.setColumns(20);
+        jTextArea6.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea6.setRows(5);
+        jTextArea6.setText("apoko");
         jScrollPane6.setViewportView(jTextArea6);
 
         jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea2.setRows(5);
+        jTextArea2.setText("no");
         jScrollPane2.setViewportView(jTextArea2);
 
         jTextArea3.setColumns(20);
+        jTextArea3.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea3.setRows(5);
+        jTextArea3.setText("krnal?");
         jScrollPane3.setViewportView(jTextArea3);
+
+        dorado3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 153, 255)));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(dorado3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(img5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(img4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -110,35 +160,40 @@ public class Perfiles extends javax.swing.JFrame {
                             .addComponent(img1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
-                            .addComponent(jScrollPane5)
-                            .addComponent(jScrollPane6)
-                            .addComponent(jScrollPane2)
-                            .addComponent(jScrollPane3)))
-                    .addComponent(jButton2))
-                .addGap(16, 16, 16))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 540, Short.MAX_VALUE)
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                .addGap(23, 23, 23))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(306, 306, 306)
+                .addComponent(jButton2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
+                .addComponent(dorado3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
                     .addComponent(img1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
                     .addComponent(img2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
                     .addComponent(img3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
-                    .addComponent(img4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(17, 17, 17)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(img4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
                     .addComponent(img5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -184,6 +239,7 @@ public class Perfiles extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel dorado3;
     private javax.swing.JLabel img1;
     private javax.swing.JLabel img2;
     private javax.swing.JLabel img3;
