@@ -1,0 +1,21 @@
+¿que es Ingeniería de software?
+R= es un enfoque disciplinado, sistemático y cuantificable al desarrollo, mantenimiento y operación del software
+¿que es una fase de desarrollo de software?
+R=son métodos que indican como se debe de desarrollar el software e manera técnica y concisa.
+¿cuales son las diferentes fases de desarrollo de software?
+R= -análisis y definición de requerimientos (delimita el alcance que tendrá el sistema)
+   -Diseño del sistema (definirá la estructura que llevara el producto a ser desarrollado)
+   -Desarrollo del sistema (comienza la codificación del sistema)
+   -Pruebas unitarias (realiza pruebas por segmentos de código haciendo mas fácil detectar errores de manera temprana)
+   -Pruebas del sistema (verifica que el programa desarrollado cumpla las funciones iniciales)
+   -implementación del sistema (consiste en poner a funcionar el programa desarrollado luego de cumplir los puntos anteriores)
+   -Mantenimiento (realizar las actualizaciones pertinentes para que siga en uso el programa)
+   -post-mortem (fin del ciclo de vida del producto)
+¿que es calidad de software?
+R=es aquel que cumple con los requerimientos dados por el usuario final del producto desarrollado
+¿que es una herramienta dentro de la ingeniería de software?
+R= es un instrumento o sistema automatizado que realiza de manera mas exacta eficiente y productiva una tarea sencilla
+¿Que es un proceso en la ingeniería de software?
+R=es un conjunto de actividades que permiten transformar los requisitos de un usario en un sistema funcional de software
+¿que es una herramienta de modelado de software?
+R=son herramientas que usan los programadores que facilita su trabajo por medio de la utilización de diagramas UML
