@@ -29,10 +29,10 @@
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jButton1" min="-2" pref="147" max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" alignment="0" pref="426" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" pref="786" max="32767" attributes="0"/>
                   <Component id="dorado2" alignment="0" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -42,9 +42,9 @@
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="dorado2" min="-2" pref="45" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="290" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="333" max="-2" attributes="0"/>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -67,7 +67,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Yo ya estoy hasta la madre&#xa;De que me pongan sombrero&#xa;Escucha entonces cuando digo&#xa;No me llames frijolero&#xa;Y aunque exista alg&#xfa;n respeto&#xa;Y no metamos las narices&#xa;Nunca inflamos la moneda&#xa;Haciendo guerra a otros pa&#xed;ses&#xa;Te pagamos con petr&#xf3;leo&#xa;E intereses nuestra deuda&#xa;Mientras tanto no sabemos&#xa;Quien se queda con la feria&#xa;Aunque nos hagan la fama&#xa;De que somos vendedores&#xa;De la droga que sembramos&#xa;Ustedes son consumidores"/>
+            <Property name="text" type="java.lang.String" value="------------------------------------------&#xbf;QU&#xc9; ES UNA METODOLOG&#xcd;A &#xc1;GIL?----------------------------------------&#xa;&#xa;Las metodolog&#xed;as agiles son, en cuestion, la gesti&#xf3;n que permiten adaptar la forma&#xa;de trabajo al contexto y naturaleza de un proyecto,&#xa;bas&#xe1;ndose en la flexibilidad y la inmediatez,&#xa;y teniendo en cuenta las exigencias del mercado y los clientes.&#xa;Los pilares fundamentales de las metodolog&#xed;as &#xe1;giles son el trabajo colaborativo y en equipo.&#xa;&#xa;--------------------------------------------------&#xbf;QU&#xc9; ES SCRUM?-------------------------------------------------------&#xa;&#xa;Scrum es un marco de trabajo en el que equipos cross-funcionales pueden crear productos&#xa;o desarrollar proyectos de una forma iterativa e incremental. El desarrollo se estructura&#xa;en ciclos de trabajo llamados Sprints. Al principio de cada Sprint, un Equipo cross-funcional&#xa;(de en torno a siete personas) selecciona elementos (peticiones del cliente) de una lista priorizada.&#xa;El equipo acuerda un objetivo colectivo respecto a lo que creen que podr&#xe1;n entregar al final del&#xa;Sprint, algo que sea tangible y que estar&#xe1; &#x201c;terminado&#x201d; por completo.&#xa;&#xa;Todos los d&#xed;as el Equipo se re&#xfa;ne brevemente para inspeccionar su progreso y ajustar los siguientes&#xa;pasos necesarios para completar el trabajo pendiente. Al final del Sprint, el Equipo revisa el Sprint&#xa;con los diferentes Stakeholders (interesados e involucrados en el producto) y realiza una demos-&#xa;traci&#xf3;n de lo que han desarrollado.&#xa;&#xa;Scrum enfatiza un producto &#x201c;funcionando&#x201d; al final del Sprint que est&#xe9; realmente &#x201c;terminado&quot;.&#xa;En el caso del software, esto significa un sistema que est&#xe1; integrado, testado, con la&#xa;documentaci&#xf3;n de usuario generada y potencialmente entregable.&#xa;&#xa;&#xa;---------------------------------------ROLES QUE SE MANEJAN EN SCRUM-------------------------------------------&#xa;&#xa;En Scrum existen tres roles: Due&#xf1;o de Producto, Equipo y ScrumMaster. Todos ellos forman lo que &#xa;se conoce como el Equipo Scrum.&#xa;&#xa;+PRODUCT OWNER: Es responsable de maximizar el retorno de inversi&#xf3;n&#xa;(ROI por las siglas en ingles ) a base de identificar las funcionalidades de producto, trasladarlas&#xa;a una lista priorizada, decidir cu&#xe1;les deber&#xed;an estar al principio de la lista para el siguiente Sprint,&#xa;y repriorizar y refinar continuamente dicha lista. El Due&#xf1;o de Producto es responsable a nivel&#xa;ganancias y p&#xe9;rdidas del producto, asumiendo que se trata de un producto comercial. Es importante&#xa;hacer notar que, en Scrum, hay una y s&#xf3;lo una persona que sirve como Due&#xf1;o de Producto y ejerce&#xa;la autoridad final como tal, y &#xe9;l o ella es responsable del valor del trabajo realizado.&#xa;&#xa;&#xa;+DEVELOPMENT TEAM: Es el que construye lo que el Due&#xf1;o de Producto indica&#xa;por ejemplo, una aplicaci&#xf3;n o un sitio Web. El Equipo en Scrum es &#x201c;cross-funcional&#x201d; &#x2013; engloba toda&#xa;la experiencia y conocimiento necesarios para desarrollar un producto potencialmente entregable en&#xa;cada Sprint &#x2013; y es &#x201c;auto-organizado&#x201d; (auto-gestionado), con un amplio margen de autonom&#xed;a y&#xa;responsabilidad. El Equipo decide cu&#xe1;ntos elementos (del conjunto que ofrece el Due&#xf1;o de Producto)&#xa;va a desarrollar durante el Sprint y cu&#xe1;l es la mejor manera de lograr dicho objetivo.  &#xa;&#xa;&#xa;+SCRUM MASTER: Es el que ayuda al &#xe1;rea de producto a aprender y aplicar Scrum para obtener valor&#xa;de negocio. El ScrumMaster hace todo lo que est&#xe9; en su mano para ayudar al Equipo, al Due&#xf1;o de&#xa;Producto y a la organizaci&#xf3;n a tener &#xe9;xito. El ScrumMaster no es el jefe de los miembros del Equipo,&#xa;como tampoco es un jefe de proyecto, l&#xed;der de equipo o representante del equipo. En su lugar,&#xa;el ScrumMaster sirve al Equipo; ayuda a eliminar impedimentos, protege al Equipo de interferencias&#xa;externas y les ayuda a adoptar pr&#xe1;cticas de desarrollo modernas. El o ella forma, entrena y gu&#xed;a al&#xa;Due&#xf1;o de Producto, al Equipo y al resto de la organizaci&#xf3;n en el uso correcto de Scrum.&#xa;&#xa;&#xa;---------------------------------------HERRAMIENTAS PARA ESTA METODOLOG&#xcd;A--------------------------------&#xa;&#xa;Trello y GitHub junto con GitBash&#xa;"/>
           </Properties>
         </Component>
       </SubComponents>

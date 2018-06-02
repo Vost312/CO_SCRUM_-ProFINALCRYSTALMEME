@@ -22,7 +22,7 @@ public class MetodologiasAgiles extends javax.swing.JFrame {
     public MetodologiasAgiles() {
         initComponents();
         getContentPane().setBackground(new Color (0,61,121));
-        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/metodologias-head.png"));
+        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/teoriais-head.png"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(dorado2.getWidth(), dorado2.getHeight(), Image.SCALE_DEFAULT));
         dorado2.setIcon(fondo1);
         this.repaint();
@@ -43,7 +43,7 @@ public class MetodologiasAgiles extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Metodologias agiles");
+        setTitle("Teoría básica de ingeniería de software.");
         setResizable(false);
 
         jScrollPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
