@@ -34,7 +34,7 @@ public class Perfiles extends javax.swing.JFrame {
         img1.setIcon(fondo1);
         this.repaint();
         
-        ImageIcon imagen2=new ImageIcon(getClass().getResource("/imagenes/hydra.jpg"));
+        ImageIcon imagen2=new ImageIcon(getClass().getResource("/imagenes/mike.gif"));
         Icon fondo2=new ImageIcon(imagen2.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img2.setIcon(fondo2);
         this.repaint();
@@ -126,7 +126,7 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea5.setColumns(20);
         jTextArea5.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea5.setRows(5);
-        jTextArea5.setText("está");
+        jTextArea5.setText("Miguel Angel Sierra Zambrano\n313043974\nmiguelsz9711@gmail.com\nSexto Semestre\nHobbies:\nVideojuegos, Cine");
         jScrollPane5.setViewportView(jTextArea5);
 
         jTextArea6.setColumns(20);

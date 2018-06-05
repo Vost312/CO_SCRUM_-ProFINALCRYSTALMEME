@@ -50,7 +50,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(213, 159, 15));
         jButton4.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 61, 121));
-        jButton4.setText("Metodologías Ágiles");
+        jButton4.setText("Ingeneria de Software");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);

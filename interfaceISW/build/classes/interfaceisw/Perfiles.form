@@ -211,7 +211,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="est&#xe1;"/>
+            <Property name="text" type="java.lang.String" value="Miguel Angel Sierra Zambrano&#xa;313043974&#xa;miguelsz9711@gmail.com&#xa;Sexto Semestre&#xa;Hobbies:&#xa;Videojuegos, Cine"/>
           </Properties>
         </Component>
       </SubComponents>
