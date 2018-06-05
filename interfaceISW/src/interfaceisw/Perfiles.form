@@ -230,7 +230,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="puto"/>
+            <Property name="text" type="java.lang.String" value="CER&#xd3;N RODR&#xcd;GUEZ LEZLY DIALID &#xa;Ing. en Computaci&#xf3;n Sexto Semestre&#xa;vanessakatarinakaory@gmail.com&#x9;&#x9;&#xa;Hobbies:Ajedrez, Box, Literatura.&#xa;FB:Dialid Wintermute"/>
           </Properties>
         </Component>
       </SubComponents>

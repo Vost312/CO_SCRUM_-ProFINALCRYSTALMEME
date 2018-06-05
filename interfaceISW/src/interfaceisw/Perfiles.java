@@ -39,7 +39,7 @@ public class Perfiles extends javax.swing.JFrame {
         img2.setIcon(fondo2);
         this.repaint();
         
-        ImageIcon imagen3=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+        ImageIcon imagen3=new ImageIcon(getClass().getResource("/imagenes/dialid.jpg"));
         Icon fondo3=new ImageIcon(imagen3.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img3.setIcon(fondo3);
         this.repaint();
@@ -132,7 +132,7 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea6.setColumns(20);
         jTextArea6.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea6.setRows(5);
-        jTextArea6.setText("puto");
+        jTextArea6.setText("CERÓN RODRÍGUEZ LEZLY DIALID \nIng. en Computación Sexto Semestre\nvanessakatarinakaory@gmail.com\t\t\nHobbies:Ajedrez, Box, Literatura.\nFB:Dialid Wintermute");
         jScrollPane6.setViewportView(jTextArea6);
 
         jTextArea2.setColumns(20);
