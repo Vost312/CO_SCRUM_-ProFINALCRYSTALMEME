@@ -50,7 +50,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(213, 159, 15));
         jButton4.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 61, 121));
-        jButton4.setText("Boton 1");
+        jButton4.setText("Metodologías Ágiles");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -60,7 +60,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(213, 159, 15));
         jButton1.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 61, 121));
-        jButton1.setText("Boton 2");
+        jButton1.setText("Perfiles");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -70,7 +70,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(213, 159, 15));
         jButton2.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 61, 121));
-        jButton2.setText("Boton 3");
+        jButton2.setText("Scrum");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -98,15 +98,15 @@ public class PaginaPrincipal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                        .addGap(80, 80, 80)
                         .addComponent(jButton1)
-                        .addGap(91, 91, 91)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton2))
-                    .addComponent(jScrollPane1)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 599, Short.MAX_VALUE)
                     .addComponent(dorado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -127,15 +127,21 @@ public class PaginaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        MetodologiasAgiles agil = new MetodologiasAgiles();
+        agil.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        Scrum scrum = new Scrum();
+        scrum.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        Perfiles per=new Perfiles();
+        per.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

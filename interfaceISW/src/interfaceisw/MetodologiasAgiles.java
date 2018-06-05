@@ -62,7 +62,12 @@ public class MetodologiasAgiles extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(213, 159, 15));
         jButton1.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 61, 121));
-        jButton1.setText("Boooooton");
+        jButton1.setText("Menú Principal");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -94,6 +99,12 @@ public class MetodologiasAgiles extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        PaginaPrincipal pag = new PaginaPrincipal();
+        pag.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
