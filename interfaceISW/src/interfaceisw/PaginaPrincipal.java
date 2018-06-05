@@ -88,7 +88,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("Lorem Ipsum is simply dummy text of\nthe printing and typesetting \nindustry.\n \nLorem Ipsum has been the industry's\nstandard dummy text ever since the \n1500s");
+        jTextArea1.setText("Esta aplicación se hizo con el objetivo de conocer los procedimientos y \ncaracterísticas de las metodologías ágiles, en especial de la metodolo-\ngía ágil Scrum. Se ha realizado un apartado con información específi-\nca del tema y el proyecto en sí fue realizado siguiendo los pasos de di-\ncha metodología. \n\nEsperando que esta información sea de utilidad, quedamos a su dispo-\nsición. \t\t\n\t\t\tSCRUM TEAM");
         jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

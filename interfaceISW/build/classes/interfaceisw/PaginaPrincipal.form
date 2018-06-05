@@ -157,7 +157,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Lorem Ipsum is simply dummy text of&#xa;the printing and typesetting &#xa;industry.&#xa; &#xa;Lorem Ipsum has been the industry&apos;s&#xa;standard dummy text ever since the &#xa;1500s"/>
+            <Property name="text" type="java.lang.String" value="Esta aplicaci&#xf3;n se hizo con el objetivo de conocer los procedimientos y &#xa;caracter&#xed;sticas de las metodolog&#xed;as &#xe1;giles, en especial de la metodolo-&#xa;g&#xed;a &#xe1;gil Scrum. Se ha realizado un apartado con informaci&#xf3;n espec&#xed;fi-&#xa;ca del tema y el proyecto en s&#xed; fue realizado siguiendo los pasos de di-&#xa;cha metodolog&#xed;a. &#xa;&#xa;Esperando que esta informaci&#xf3;n sea de utilidad, quedamos a su dispo-&#xa;sici&#xf3;n. &#x9;&#x9;&#xa;&#x9;&#x9;&#x9;SCRUM TEAM"/>
           </Properties>
         </Component>
       </SubComponents>
