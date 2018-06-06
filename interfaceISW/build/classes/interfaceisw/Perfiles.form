@@ -17,9 +17,6 @@
     <Property name="maximizedBounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
       <Rectangle value="[0, 0, 0, 0]"/>
     </Property>
-    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[300, 500]"/>
-    </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[300, 500]"/>
     </Property>
@@ -249,7 +246,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="buenas"/>
+            <Property name="text" type="java.lang.String" value="313093498&#xa;ROBLES HERN&#xc1;NDEZ DAVID ALEJANDRO&#xa;alejandro.zip@hotmail.es&#xa;Hobbies: Leer, videojuegos, escuchar musica, navegar en este p&#xe1;lido oc&#xe9;ano llamado vida. &#xa;"/>
           </Properties>
         </Component>
       </SubComponents>

@@ -44,7 +44,7 @@ public class Perfiles extends javax.swing.JFrame {
         img3.setIcon(fondo3);
         this.repaint();
         
-        ImageIcon imagen4=new ImageIcon(getClass().getResource("/imagenes/hydra.jpg"));
+        ImageIcon imagen4=new ImageIcon(getClass().getResource("/imagenes/el-guapo.jpg"));
         Icon fondo4=new ImageIcon(imagen4.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img4.setIcon(fondo4);
         this.repaint();
@@ -91,7 +91,6 @@ public class Perfiles extends javax.swing.JFrame {
         setTitle("Development Team");
         setBackground(new java.awt.Color(0, 0, 0));
         setMaximizedBounds(new java.awt.Rectangle(0, 0, 0, 0));
-        setMaximumSize(new java.awt.Dimension(300, 500));
         setMinimumSize(new java.awt.Dimension(300, 500));
         setResizable(false);
         setSize(new java.awt.Dimension(0, 0));
@@ -138,7 +137,7 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea2.setRows(5);
-        jTextArea2.setText("buenas");
+        jTextArea2.setText("313093498\nROBLES HERNÁNDEZ DAVID ALEJANDRO\nalejandro.zip@hotmail.es\nHobbies: Leer, videojuegos, escuchar musica, navegar en este pálido océano llamado vida. \n");
         jScrollPane2.setViewportView(jTextArea2);
 
         jTextArea3.setColumns(20);
