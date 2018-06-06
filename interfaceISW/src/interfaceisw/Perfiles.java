@@ -29,7 +29,7 @@ public class Perfiles extends javax.swing.JFrame {
         dorado3.setIcon(fondo0);
         this.repaint();
     
-        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+        ImageIcon imagen1=new ImageIcon(getClass().getResource("/imagenes/hagen.jpg"));
         Icon fondo1=new ImageIcon(imagen1.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img1.setIcon(fondo1);
         this.repaint();
@@ -49,7 +49,7 @@ public class Perfiles extends javax.swing.JFrame {
         img4.setIcon(fondo4);
         this.repaint();
         
-        ImageIcon imagen5=new ImageIcon(getClass().getResource("/imagenes/Astolfo.jpg"));
+        ImageIcon imagen5=new ImageIcon(getClass().getResource("/imagenes/vic.jpg"));
         Icon fondo5=new ImageIcon(imagen5.getImage().getScaledInstance(img1.getWidth(), img1.getHeight(), Image.SCALE_DEFAULT));
         img5.setIcon(fondo5);
         this.repaint();
@@ -109,7 +109,7 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("ahí");
+        jTextArea1.setText("Enciso Hernandez Emerik Hagen\n313219452\ndemerakalpha@gmail.com\nICO sexto semestre\nhobbies: pensar en como sera la muerte de mis allegados\ny los trapos XD");
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton2.setBackground(new java.awt.Color(213, 159, 15));
@@ -143,7 +143,7 @@ public class Perfiles extends javax.swing.JFrame {
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Calibri", 3, 18)); // NOI18N
         jTextArea3.setRows(5);
-        jTextArea3.setText("noches");
+        jTextArea3.setText("Victor Oscar Saviñon Tovar\n313118757\ning. en computacion sexto semestre\nhobbies: scrum en fornite :D\n ");
         jScrollPane3.setViewportView(jTextArea3);
 
         dorado3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 61, 121)));

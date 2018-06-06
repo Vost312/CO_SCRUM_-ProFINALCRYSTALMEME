@@ -172,7 +172,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="ah&#xed;"/>
+            <Property name="text" type="java.lang.String" value="Enciso Hernandez Emerik Hagen&#xa;313219452&#xa;demerakalpha@gmail.com&#xa;ICO sexto semestre&#xa;hobbies: pensar en como sera la muerte de mis allegados&#xa;y los trapos XD"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -265,7 +265,7 @@
               <Font name="Calibri" size="18" style="3"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="noches"/>
+            <Property name="text" type="java.lang.String" value="Victor Oscar Savi&#xf1;on Tovar&#xa;313118757&#xa;ing. en computacion sexto semestre&#xa;hobbies: scrum en fornite :D&#xa; "/>
           </Properties>
         </Component>
       </SubComponents>
