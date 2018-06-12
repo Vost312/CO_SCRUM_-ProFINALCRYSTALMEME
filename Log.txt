@@ -1,0 +1,26 @@
+31 mayo
+Se creo el tablero con todos los PBI, divididos segun su tipo
+Se realizo el framework basico de la pagina
+Se comenzo a trabajar con el Estilo el cual quedo en WIP.
+Los problemas que se encontraron fueron implementar las scroll bars.
+
+1 junio
+Se completo el Estilo 
+
+Se comenzo a ingresar la informacion de el primer y segundo apartado
+
+Se comenzo a dar formato a los botones
+
+2 junio
+
+se termino de dar formato a los botones
+
+4 junio
+se incluyeron los eventos para el cambio de pagina a los botones
+Se dio formato a la pagina principal
+Se añadio informacion de el tercer apartado
+
+5 Junio
+Se completo el proyecto
+
+Visto bueno por el Product Owner
